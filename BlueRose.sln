@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueRose", "BlueRose\BlueRose.csproj", "{218D01A4-D344-49C1-9686-AF5138A98386}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{218D01A4-D344-49C1-9686-AF5138A98386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218D01A4-D344-49C1-9686-AF5138A98386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218D01A4-D344-49C1-9686-AF5138A98386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218D01A4-D344-49C1-9686-AF5138A98386}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F8A9276-8A87-4CBA-B16F-0C439C98C63B}
+	EndGlobalSection
+EndGlobal
