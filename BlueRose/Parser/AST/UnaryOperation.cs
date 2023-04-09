@@ -14,6 +14,8 @@ namespace BlueRose.Parser.AST
         {
             OP = oP;
             Operand = operand;
+            this.start_pos = oP.Pos;
+            this.end_pos = operand.end_pos;
         }
 
         public override string print()

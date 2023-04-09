@@ -15,6 +15,8 @@ namespace BlueRose.Parser.AST
             Left = left;
             tOperator = toperator;
             Right = right;
+            this.start_pos = Left.start_pos;
+            this.end_pos = Right.end_pos;
         }
 
         public override string print()

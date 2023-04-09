@@ -10,6 +10,8 @@ namespace BlueRose.Parser.AST
         public NumberNode(Token number)
         {
             Number = number;
+            this.start_pos = number.Pos;
+            this.end_pos = number.Pos;
         }
 
         public override string print()

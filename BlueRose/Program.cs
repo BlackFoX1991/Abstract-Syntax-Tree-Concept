@@ -2,9 +2,11 @@
 using BlueRose.Parser.AST;
 using System;
 using System.Collections.Generic;
-
+using System.ComponentModel;
+using BlueRose.Parser.Values;
 namespace BlueRose
 {
+
     internal class Program
     {
         static void Main(string[] args)
@@ -24,8 +26,10 @@ namespace BlueRose
                         Parser.Parser PRS = new Parser.Parser(tokens);
                         ParserResult ASTS = PRS.Parse();
                         if (ASTS.Error != null) { throw ASTS.Error; }
-                        Console.Write(ASTS.print());
-                        Console.WriteLine();
+                        /*Console.Write(ASTS.print());
+                        Console.WriteLine();*/
+                        Interpreter IP = new Interpreter();
+                        Console.WriteLine(IP.visit(ASTS.Node).print());
                     }
                     catch (Exception e)
                     {
