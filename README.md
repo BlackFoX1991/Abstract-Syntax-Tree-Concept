@@ -18,4 +18,4 @@ This is how our Parser works, it will loop trough all the Tokens and loop trough
 
 ## Update Log
 
--> Added a small Interpreter to evaluate the Ast created from a Math-Expression. Currently Supports Plus, Subtract, Divide, Multiply with Numbers and Unary Numbers.
+-> Added a small Interpreter to evaluate the Ast created from a Math-Expression. Currently Supports Plus, Subtract, Divide, Multiply with Numbers and Unary Numbers and also Parenthesis.
