@@ -1,4 +1,4 @@
-# BlueRose
+# Abstract Syntax Tree Concept
 
 This Project is just an Example how to tokenize, parse and create a AST out of an Expression. This Project just shows how to create a abstract Syntax Tree from a Math-Expression. ~~without any evaluation Process which will be added in later Versions to demonstrate how to visit each Node Type, simply interpret the input.~~
 
